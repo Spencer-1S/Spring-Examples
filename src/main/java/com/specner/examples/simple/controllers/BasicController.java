@@ -1,9 +1,8 @@
-package com.specner.examples.controllers;
+package com.specner.examples.simple.controllers;
 
-import com.specner.examples.entity.User;
-import com.specner.examples.repository.JPARepository;
+import com.specner.examples.simple.entity.User;
+import com.specner.examples.simple.repository.JPARepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
