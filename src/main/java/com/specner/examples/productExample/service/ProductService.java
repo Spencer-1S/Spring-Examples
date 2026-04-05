@@ -17,4 +17,19 @@ public class ProductService {
         return productRepository.getAllProducts();
     }
 
+    public Product getProductById(int id) {
+        return productRepository.getProductById(id);
+    }
+
+    public void addProduct(Product product) {
+        productRepository.saveProduct(product);
+    }
+
+    public void updateProduct(Product product) {
+        productRepository.updateProduct(product);
+    }
+
+    public void deleteProduct(int id) {
+        productRepository.deleteProductById(id);
+    }
 }

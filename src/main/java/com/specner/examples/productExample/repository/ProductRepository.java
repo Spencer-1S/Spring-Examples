@@ -28,4 +28,16 @@ public class ProductRepository {
         return products.stream().filter(p -> p.getProductId() == productId).findFirst().orElse(null);
     }
 
+    public void updateProduct(Product product) {
+        for (int i = 0; i < products.size(); i++) {
+            if (products.get(i).getProductId() == product.getProductId()) {
+                products.set(i, product);
+                return;
+            }
+        }
+    }
+
+    public void deleteProductById(int id) {
+        products.removeIf(p -> p.getProductId() == id);
+    }
 }
