@@ -1,4 +1,4 @@
-package com.specner.examples.productExample.model;
+package com.specner.examples.Units.productExample.model;
 
 import jakarta.persistence.Entity;
 import lombok.Data;

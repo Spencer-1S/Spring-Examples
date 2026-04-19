@@ -1,8 +1,8 @@
-package com.specner.examples.productExample.service;
+package com.specner.examples.Units.productExample.service;
 
 
-import com.specner.examples.productExample.model.Product;
-import com.specner.examples.productExample.repository.ProductRepository;
+import com.specner.examples.Units.productExample.model.Product;
+import com.specner.examples.Units.productExample.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

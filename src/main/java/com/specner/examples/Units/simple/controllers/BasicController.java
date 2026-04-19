@@ -1,7 +1,7 @@
-package com.specner.examples.simple.controllers;
+package com.specner.examples.Units.simple.controllers;
 
-import com.specner.examples.simple.entity.User;
-import com.specner.examples.simple.repository.JPARepository;
+import com.specner.examples.Units.simple.entity.User;
+import com.specner.examples.Units.simple.repository.JPARepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

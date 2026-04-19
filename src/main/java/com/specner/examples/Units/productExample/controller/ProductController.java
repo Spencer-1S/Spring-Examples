@@ -1,7 +1,7 @@
-package com.specner.examples.productExample.controller;
+package com.specner.examples.Units.productExample.controller;
 
-import com.specner.examples.productExample.model.Product;
-import com.specner.examples.productExample.service.ProductService;
+import com.specner.examples.Units.productExample.model.Product;
+import com.specner.examples.Units.productExample.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

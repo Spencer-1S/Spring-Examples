@@ -1,6 +1,6 @@
-package com.specner.examples.productExample.repository;
+package com.specner.examples.Units.productExample.repository;
 
-import com.specner.examples.productExample.model.Product;
+import com.specner.examples.Units.productExample.model.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

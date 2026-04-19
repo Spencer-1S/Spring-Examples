@@ -1,7 +1,7 @@
-package com.specner.examples.simple.repository;
+package com.specner.examples.Units.simple.repository;
 
 
-import com.specner.examples.simple.entity.User;
+import com.specner.examples.Units.simple.entity.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface JPARepository extends CrudRepository<User, Integer> {

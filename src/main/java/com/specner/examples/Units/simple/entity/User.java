@@ -1,4 +1,4 @@
-package com.specner.examples.simple.entity;
+package com.specner.examples.Units.simple.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
